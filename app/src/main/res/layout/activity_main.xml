@@ -45,9 +45,9 @@
             android:layout_height="wrap_content"
             android:textSize="32sp"
             android:text="@string/_735"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginTop="@dimen_activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_marginBottom="8dp"
             android:textColor="@android:color/black"/>
 
@@ -56,17 +56,17 @@
             android:layout_height="wrap_content"
             android:text="@string/stock_hanya_5_buah"
             android:textSize="12sp"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginBottom="@dimen_activity_vertical_margin"/>
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@string/content_text"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginBottom="@dimen_activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:lineSpacingMultiplier="1"
             android:textColor="@android:color/black"/>
 
@@ -75,16 +75,16 @@
             android:layout_height="wrap_content"
             android:text="@string/spesifikasi"
             android:textSize="12sp"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="8dp"/>
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginBottom="@dimen_activity_vertical_margin">
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -148,16 +148,16 @@
             android:layout_height="wrap_content"
             android:text="@string/dijual_oleh"
             android:textSize="12sp"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="8dp"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginBottom="@dimen_activity_vertical_margin">
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="56dp"
@@ -180,8 +180,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/beli"
-            android:layout_marginLeft="@dimen_activity_horozontal_margin"
-            android:layout_marginRight="@dimen_activity_horizontal_margin"
-            android:layout_marginBottom="@dimen_activity_vertical_margin"/>/>
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>/>
     </LinearLayout>
 </ScrollView>
